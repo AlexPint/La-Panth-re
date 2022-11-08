@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -822,12 +822,27 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 
+@media (max-width: 450px) {
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("img/agence-la-panthere2.webp"); 
+    }
 }
 
+@media (min-width: 450px) {
+.bg-banniere {
+    background-image: url("img/agence-la-panthere.webp");
+    }
+}  
+
+@media (max-width: 450px) {
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation2.webp"); 
+    }
+}
+@media (min-width: 450px) {
+.bg-presentation { 
+    background-image: url("img/image-de-presentation2.webp"); 
+    }
 }
 
 @media (max-width: 1024px) {
@@ -853,13 +868,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
