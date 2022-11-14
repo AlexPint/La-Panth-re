@@ -836,12 +836,12 @@ h4 {
 
 @media (max-width: 450px) {
 .bg-presentation {
-    background-image: url("img/image-de-presentation2.webp"); 
+    background-image: url("img/image-de-presentation.2.webp"); 
     }
 }
 @media (min-width: 450px) {
 .bg-presentation { 
-    background-image: url("img/image-de-presentation2.webp"); 
+    background-image: url("img/image-de-presentation.2.webp"); 
     }
 }
 
